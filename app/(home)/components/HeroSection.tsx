@@ -3,7 +3,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="min-h-[60vh] flex justify-between items-center">
+    <div className="min-h-[60vh] flex flex-col-reverse py-12 lg:py-0 lg:flex-row lg:gap-0 justify-between items-center gap-14">
       <div>
         <div className="space-y-10">
           <h1 className="text-4xl lg:text-7xl">
@@ -53,6 +53,7 @@ Put group in the parent element and group-hover: in all those child elements lin
             <div className="w-32 h-32 rounded-full bg-green-500"></div>
           </div>
         </div>
+        <div className="glow"></div>
       </div>
     </div>
   );

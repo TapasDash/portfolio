@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { MovingBorderBtn } from "./ui/MovingBorderBtn";
 
 const HeroSection = () => {
   return (
@@ -54,6 +55,9 @@ Put group in the parent element and group-hover: in all those child elements lin
           </div>
         </div>
         <div className="glow"></div>
+        <MovingBorderBtn borderRadius="0.5rem" className="p-3 font-semibold">
+          🚀 Available For Work
+        </MovingBorderBtn>
       </div>
     </div>
   );
